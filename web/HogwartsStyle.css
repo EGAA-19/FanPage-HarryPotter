@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(assets/dark.svg);
+}
+
+/*|||||||||||-ENCABEZADO-|||||||||||||*/
+.header{
+    margin: 30px;
+    padding: 20px;
+    background-image: url(assets/dark.svg);
+    background-size: cover;
+    border-radius: 20px;
+}
+.logo-text{
+    text-align: center;
+}
+.logo-desc{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo-title{
+    font-size: 50px;
+    color: gold;
+    font-family: 'Harry Potter', sans-serif;
+}
+/*||||||||||||||||||||||||||||||||||||*/
+
+/*||||||||||||||-MENU-|||||||||||||||*/
+.nav{
+    margin: 30px;
+    padding: 20px;
+    background-image: url(assets/dark.svg);
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+.menu{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-shadow: 5px 5px 5px black;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.menu-text{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: 'Harry Potter', sans-serif;
+}
+.menu-text:hover{
+    color:yellow;
+    transition: .5s linear 0s;
+}
+/*||||||||||||||||||||||||||||||||||||*/
+
+/*|||||||||||||-ARTICLE-||||||||||||||*/
+.section{
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+.container-articles{
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.school-article{
+    width: 100%;
+    margin: 20px auto;
+    border: 5px solid white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 5%;
+}
+.school-images{
+    width: 250px;
+    height: 350px;
+    background-color: darkred;
+    border: 5px yellow;
+    border-radius: 50%;
+    border-style: groove;
+}
+.school-text{
+    margin: 10px auto;
+    padding: 50px;
+}
+.school-title{
+    font-family: 'Harry Potter', sans-serif;
+    font-size: xx-large;
+}
+.school-title:hover{
+    color: yellow;
+    text-shadow: 2px 2px 2px white;
+    transition: 1s linear 0s;
+}
+.school-desc{
+    font-size: larger;
+    color:gold;
+    text-align:center;
+}
+
+.house-article{
+    width: 100%;
+    margin: 20px auto;
+    border: 5px solid black;
+    padding: 50px;
+    text-align: center;
+    border-radius: 5%;
+}
+#margen_1{
+    border: 5px solid #7f262b;
+}
+#margen_2{
+    border: 5px solid #eaab20;
+}
+#margen_3{
+    border: 5px solid #014d7f;
+}
+#margen_4{
+    border: 5px solid #017549;
+
+}
+.house-images{
+    width: 250px;
+    height: 350px;
+    background-color: darkred;
+    border: 5px groove black;
+    border-radius: 50%;
+}
+.house-text{
+    margin: 10px;
+    padding: 50px;
+}
+.house-title{
+    font-family: 'Harry Potter', sans-serif;
+    font-size: xx-large;
+}
+.house-title:hover{
+    color: yellow;
+    text-shadow: 2px 2px 2px white;
+    transition: 1s linear 0s;
+}
+.house-desc{
+    font-size: larger;
+    color: white;
+    text-align:center;
+}
+#color_1{
+    color:#7f262b;
+}
+#color_2{
+    color:#eaab20;
+}
+#color_3{
+    color:#014d7f;
+}
+#color_4{
+    color:#017549;
+}
+
+
+.video{
+    margin: 30px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*|||||||||||||||||||||||||||||||||||*/
+
+
+/*|||||||||||||-FOOTER-||||||||||||||*/
+.footer{
+    margin: 30px auto;
+    padding: 20px;
+}
+.magic{
+    margin: 10px auto;
+    padding: 20px;
+}
+.contact{
+    border-radius: 50px;
+    background-image: url(assets/dark.svg);
+    background-size: cover;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+.contact-info p{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+.contact-personal{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    font-size: 20px;
+}
+.contact-personal i{
+    font-size: 50px;
+}
+.contact-personal a{
+    text-decoration: none;
+}
+
+.magic{
+    text-align: center;
+    margin: 20px auto;
+}
+.magic-images_nox{
+    height: 300px;
+}
+.magic-button{
+    font-family: 'Harry Potter', sans-serif;
+    border: 5px solid black;
+    border-radius: 100px 0 100px 0;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+/*||||||||||||||||||||||||||||||||||||*/
